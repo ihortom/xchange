@@ -1,0 +1,60 @@
+/*
+	Author:	ProperWeb
+	Date: 	25/05/2017
+	Web:	http://www.prperweb.ca
+
+	MIT License
+	Copyright (C) 2017 ProperWeb
+
+	Permission is hereby granted, free of charge, to any person obtaining a
+	copy of this software and associated documentation files (the "Software"),
+	to deal in the Software without restriction, including without limitation
+	the rights to use, copy, modify, merge, publish, distribute, sublicense,
+	and/or sell copies of the Software, and to permit persons to whom the
+	Software is furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+	FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+	DEALINGS IN THE SOFTWARE.
+*/
+
+body {
+	min-width: 320px;
+	overflow-x: hidden;
+	font-size: 14px;
+}
+
+select {
+	height: 24px;
+	font-size: 13px;
+}
+
+#display {
+	color: rgb(105, 105, 105);
+}
+
+#submit {
+	border-radius: 5px;
+	background-color: rgb(205, 205, 205);
+    border: 1px solid rgb(166, 166, 166);
+    padding: 5px 10px;
+	font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#rate {
+	font-weight:bold;
+	color:red;
+}
+
+#tip {
+	font-size: 10pt;
+}

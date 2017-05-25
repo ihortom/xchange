@@ -1,0 +1,58 @@
+<!--
+	Author:	ProperWeb
+	Date: 	22/05/2017
+	Web:	http://www.prperweb.ca
+
+	MIT License
+	Copyright (C) 2017 ProperWeb
+
+	Permission is hereby granted, free of charge, to any person obtaining a
+	copy of this software and associated documentation files (the "Software"),
+	to deal in the Software without restriction, including without limitation
+	the rights to use, copy, modify, merge, publish, distribute, sublicense,
+	and/or sell copies of the Software, and to permit persons to whom the
+	Software is furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+	FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+	DEALINGS IN THE SOFTWARE.
+-->
+<html>
+<head>
+	<title>xChange Rate Monitor - By ProperWeb</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<div><span id="lblSrc"></span> &rArr; <span id="lblTar"></span>: <span id="rate" ></span></div>
+	<hr>
+	<span id="imgCap">Exchange rate for the last 30 days:</span>
+	<img id="imgTrend" src="https://encrypted.google.com/finance/chart?q=CURRENCY:USDCAD&tkr=1&p=1M&chst=cob" />
+	<hr>
+	<form id="form1">
+		<p>Select currencies</p>
+		<select id="srcCur"></select> &rArr; <select id="tarCur"></select>
+		<p>Select exchange rate display range in badge</p>
+		<select id="dslFrom">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="2">3</option>
+		</select> :
+		<select id="dslTo">
+			<option value="3">3</option>
+			<option value="4" selected>4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</select> &rArr; <span id="display"></span>
+		<p><input type="submit" id="submit" value="Commit"></p>
+	</form>
+	<script type="text/javascript" src="popup.js"></script>
+</body>
+</html>
