@@ -14,7 +14,6 @@
    },
    "manifest_version": 2,
    "name": "xChange Rate Monitor",
-   //"permissions": [ "http://api.fixer.io/" ],
    "permissions": [ "http://www.xiaomingtu.com/" ],
    "version": "1.0"
 }
